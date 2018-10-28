@@ -15,12 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
+    <ClInclude Include="euro3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="money.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coffee_coin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coffee_machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="euro0_50.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="euro1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="coffee_coin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coffee_machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="euro0_50.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="euro3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="money.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="euro1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

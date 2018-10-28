@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{A7626390-3170-449A-BC7D-BC1A376B47B5}</ProjectGuid>
+    <ProjectGuid>{B82E6FB1-2627-4960-A0BA-F5DC1388A6F1}</ProjectGuid>
     <RootNamespace>week3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -115,10 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
+    <ClInclude Include="coffee_coin.h" />
+    <ClInclude Include="coffee_machine.h" />
+    <ClInclude Include="euro0_50.h" />
+    <ClInclude Include="euro1.h" />
+    <ClInclude Include="euro3.h" />
+    <ClInclude Include="money.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="coffee_coin.cpp" />
+    <ClCompile Include="coffee_machine.cpp" />
+    <ClCompile Include="euro0_50.cpp" />
+    <ClCompile Include="euro1.cpp" />
+    <ClCompile Include="euro3.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="money.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
