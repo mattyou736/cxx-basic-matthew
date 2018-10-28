@@ -18,33 +18,9 @@
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="coffeeCoin.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="fiftyEuroCent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="oneEuro.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="whichCoin.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="coffeeCoin.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="fiftyEuroCent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="oneEuro.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="whichCoin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
